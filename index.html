@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qual o numero?</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js" defer></script>
+    <script src="https://kit.fontawesome.com/b16d671860.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap" rel="stylesheet">
+
+</head> 
+<body>
+    <header>
+        <a href="a"><h1>GuessNumber</h1></a>
+    </header>
+
+    <main class="container">
+        <form >
+            <label for="kick">Digite um numero de 0 a 10:</label>
+            <input type="number" id="kick" max="10" placeholder="0">
+
+            <button type="button" onclick="chute()" id="button">Jogar!</button>
+        </form>
+
+        <section id="res" class="result-box">
+            <h2 id="status">Adivinhe o numero sorteado!</h2>
+            <span id="attempt">Tentativas: 0</span>
+        </section>
+
+        <button id="btnstart" onclick="window.location.reload()">Jogar de novo!</button>
+    </main>
+
+    <footer>
+        <p>GuessNumber by Marcelo Diogo, 2023 &copy;</p>
+    </footer>
+</body>
+</html>
