@@ -22,3 +22,6 @@ Para começar, basta executar o arquivo "index.html". O jogo pedirá que você e
 Requisitos
 Este jogo requer que você tenha um navegador da Web com JavaScript habilitado.
 
+deploy
+https://thunderous-rolypoly-e8f60f.netlify.app
+
